@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "email-agent": {
+      "command": "python3",
+      "args": ["/Users/wangjiaxun/ME/code/email-agent/email-mcp/server.py"],
+      "//": "Credentials are managed via email-mcp/.env (gitignored). No env section needed here."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+# email-mcp — AI Email Agent MCP Server
+#
+# Minimal dependencies. imaplib, smtplib, ssl, email, and
+# datetime are all part of Python stdlib.
+#
+# The `mcp` package provides the FastMCP server framework.
+# Pin to a known-good version for reproducibility.
+
+mcp>=1.6.0,<2.0.0
+
+# Load credentials from .env file (auto-detected by server.py)
+python-dotenv>=1.0.0
+
+# Optional: for email-send-hku (Outlook Web automation)
+playwright>=1.48.0
